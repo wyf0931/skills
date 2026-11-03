@@ -13,7 +13,23 @@ Scott 的个人 Agent skills。小而独立，一份核心正文，按需适配�
 
 ## 使用
 
-克隆仓库，将需要的 skill 复制到 Agent 的技能目录：
+使用 [Skills CLI](https://github.com/vercel-labs/skills) 快速安装（需要 Node.js）：
+
+```sh
+npx skills add https://github.com/wyf0931/skills --skill write-tutorial
+```
+
+一次安装四个写作 skill：
+
+```sh
+npx skills add https://github.com/wyf0931/skills --skill write-tutorial --skill write-how-to --skill write-reference --skill write-explanation
+```
+
+将技能名换成 `adapt-agent-skill`，即可安装平台适配 skill。
+CLI 会提示选择目标 Agent；添加 `-g` 可全局安装。
+查看可用技能：`npx skills add https://github.com/wyf0931/skills --list`。
+
+也可以克隆仓库，使用 Python 安装器：
 
 ```sh
 git clone https://github.com/wyf0931/skills.git

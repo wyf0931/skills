@@ -13,7 +13,23 @@ Scott's personal agent skills. Small, independent workflows; one portable core.
 
 ## Use
 
-Clone this repository, then copy selected skills to your agent's skill directory:
+Quick install with [Skills CLI](https://github.com/vercel-labs/skills) (Node.js required):
+
+```sh
+npx skills add https://github.com/wyf0931/skills --skill write-tutorial
+```
+
+Install all four writing skills:
+
+```sh
+npx skills add https://github.com/wyf0931/skills --skill write-tutorial --skill write-how-to --skill write-reference --skill write-explanation
+```
+
+Replace the skill name with `adapt-agent-skill` for platform adaptation.
+The CLI prompts for target agents; add `-g` for global installation.
+To browse available skills, use `npx skills add https://github.com/wyf0931/skills --list`.
+
+Alternatively, clone this repository and use the Python installer:
 
 ```sh
 git clone https://github.com/wyf0931/skills.git
