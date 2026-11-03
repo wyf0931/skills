@@ -23,6 +23,7 @@ Name the document after the reader's goal, not just a feature. “Rotate an API 
 - Place consequences, permissions and required backups before the affected operation. Include recovery or rollback when the task requires it and evidence supports it.
 - Give a concrete completion check. For troubleshooting, connect symptoms to discriminating checks and conditional remedies; do not list unrelated commands.
 - Keep brief reasons needed for a correct decision. Link substantial background rather than interrupting the task.
+- For a multi-part guide, use task-oriented headings and navigation. Present prerequisite and setup information before dependent steps, and disclose optional or advanced branches where readers can find them without interrupting the main route.
 
 ## Write and verify
 

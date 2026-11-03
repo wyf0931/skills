@@ -23,6 +23,7 @@ Use supplied sources and inspect relevant code or first-party material when avai
 - Consider alternatives, counterexamples and constraints when they help explain a choice. Say under which conditions the conclusion changes.
 - Use an analogy for a specific relationship, then return to the actual mechanism. State its limits when the analogy could mislead.
 - Keep commands and interface facts only as evidence or illustration. Link a separate procedure or reference when readers need to act or look up details.
+- For a longer explanation, state its scope and give readers an early summary or orientation when that helps them decide whether to continue. Organize sections around the question and causal path; add navigation when length makes it useful, not as a substitute for a clear argument.
 
 ## Chinese adaptation
 

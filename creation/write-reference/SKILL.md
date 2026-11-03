@@ -24,7 +24,7 @@ Select relevant details, not a mandatory universal field list:
 - Errors, restrictions, compatibility and boundary cases that affect use.
 - Short examples that clarify a specific behavior. State prerequisites needed to interpret them; distinguish snippets from complete runnable programs.
 
-Place information where readers expect it across entries. Use stable terminology and neutral descriptions. Keep warnings with the behavior they qualify. Link specific guides and explanations instead of embedding a lesson or an entire workflow. An example complements a contract; it does not replace one.
+Place information where readers expect it across entries. For a large reference set, group by the documented system and provide navigational aids such as an overview, contents or glossary when they materially improve lookup. Use stable terminology and neutral descriptions. Keep warnings with the behavior they qualify. Link specific guides and explanations instead of embedding a lesson or an entire workflow. An example complements a contract; it does not replace one.
 
 ## Chinese lookup quality
 

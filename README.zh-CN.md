@@ -7,7 +7,7 @@ Scott 的个人 Agent skills。小而独立，一份核心正文，按需适配�
 | 分类 | Skills |
 | --- | --- |
 | **Engineering · 工程** | [adapt-agent-skill](engineering/adapt-agent-skill/SKILL.md) — 创建与适配跨平台 skill |
-| **Creation · 内容创作与技术写作** | [write-tutorial](creation/write-tutorial/SKILL.md) 教程 · [write-how-to](creation/write-how-to/SKILL.md) 操作指南 · [write-reference](creation/write-reference/SKILL.md) 参考 · [write-explanation](creation/write-explanation/SKILL.md) 解释 |
+| **Creation · 内容创作与技术写作** | [write-tutorial](creation/write-tutorial/SKILL.md) 教程 · [write-how-to](creation/write-how-to/SKILL.md) 操作指南 · [write-reference](creation/write-reference/SKILL.md) 参考 · [write-explanation](creation/write-explanation/SKILL.md) 解释 · [write-clearly](creation/write-clearly/SKILL.md) 清晰表达 · [write-error-messages](creation/write-error-messages/SKILL.md) 错误消息 · [write-accessible-content](creation/write-accessible-content/SKILL.md) 无障碍内容 |
 | **Design · 产品设计与 UI/UX** | 预留 |
 | **Thinking · 思维方式与问题解决** | 预留 |
 
@@ -19,10 +19,10 @@ Scott 的个人 Agent skills。小而独立，一份核心正文，按需适配�
 npx skills add https://github.com/wyf0931/skills --skill write-tutorial
 ```
 
-一次安装四个写作 skill：
+一次安装七个写作 skill：
 
 ```sh
-npx skills add https://github.com/wyf0931/skills --skill write-tutorial --skill write-how-to --skill write-reference --skill write-explanation
+npx skills add https://github.com/wyf0931/skills --skill write-tutorial --skill write-how-to --skill write-reference --skill write-explanation --skill write-clearly --skill write-error-messages --skill write-accessible-content
 ```
 
 将技能名换成 `adapt-agent-skill`，即可安装平台适配 skill。
@@ -34,7 +34,7 @@ CLI 会提示选择目标 Agent；添加 `-g` 可全局安装。
 ```sh
 git clone https://github.com/wyf0931/skills.git
 cd skills
-python3 scripts/install.py codex write-tutorial write-how-to write-reference write-explanation
+python3 scripts/install.py codex write-tutorial write-how-to write-reference write-explanation write-clearly write-error-messages write-accessible-content
 ```
 
 将 `codex` 换成 `pi`、`claude`、`hermes` 或 `dsh`。仓库工具需要 Python 3.10+，
@@ -58,7 +58,7 @@ python3 scripts/check.py
 python3 -m unittest discover -s tests
 ```
 
-写作 skills 基于 Diátaxis 与社区实践，中文适配覆盖信息顺序和推理关系。
+四个文档类型 skill 基于 Diátaxis 与社区实践；清晰表达、错误消息和无障碍内容 skill 借鉴 Google 技术写作课程。中文适配重建信息顺序和关系。
 [实践研究](docs/research/community-practices.md) ·
 [中文适配](docs/research/skill-practice-synthesis.md) · [来源声明](NOTICE.md)。
 

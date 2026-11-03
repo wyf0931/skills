@@ -7,7 +7,7 @@ Scott's personal agent skills. Small, independent workflows; one portable core.
 | Category | Skills |
 | --- | --- |
 | **Engineering** | [adapt-agent-skill](engineering/adapt-agent-skill/SKILL.md) — author and adapt skills across agent platforms |
-| **Creation** | [write-tutorial](creation/write-tutorial/SKILL.md) · [write-how-to](creation/write-how-to/SKILL.md) · [write-reference](creation/write-reference/SKILL.md) · [write-explanation](creation/write-explanation/SKILL.md) |
+| **Creation** | [write-tutorial](creation/write-tutorial/SKILL.md) · [write-how-to](creation/write-how-to/SKILL.md) · [write-reference](creation/write-reference/SKILL.md) · [write-explanation](creation/write-explanation/SKILL.md) · [write-clearly](creation/write-clearly/SKILL.md) · [write-error-messages](creation/write-error-messages/SKILL.md) · [write-accessible-content](creation/write-accessible-content/SKILL.md) |
 | **Design** | Product design and UI/UX — reserved |
 | **Thinking** | Reasoning and problem solving — reserved |
 
@@ -19,10 +19,10 @@ Quick install with [Skills CLI](https://github.com/vercel-labs/skills) (Node.js 
 npx skills add https://github.com/wyf0931/skills --skill write-tutorial
 ```
 
-Install all four writing skills:
+Install all seven writing skills:
 
 ```sh
-npx skills add https://github.com/wyf0931/skills --skill write-tutorial --skill write-how-to --skill write-reference --skill write-explanation
+npx skills add https://github.com/wyf0931/skills --skill write-tutorial --skill write-how-to --skill write-reference --skill write-explanation --skill write-clearly --skill write-error-messages --skill write-accessible-content
 ```
 
 Replace the skill name with `adapt-agent-skill` for platform adaptation.
@@ -34,7 +34,7 @@ Alternatively, clone this repository and use the Python installer:
 ```sh
 git clone https://github.com/wyf0931/skills.git
 cd skills
-python3 scripts/install.py codex write-tutorial write-how-to write-reference write-explanation
+python3 scripts/install.py codex write-tutorial write-how-to write-reference write-explanation write-clearly write-error-messages write-accessible-content
 ```
 
 Replace `codex` with `pi`, `claude`, `hermes`, or `dsh`. Python 3.10+ is needed
@@ -59,8 +59,7 @@ python3 scripts/check.py
 python3 -m unittest discover -s tests
 ```
 
-Writing skills build on Diátaxis and practical community experience, with Chinese
-adaptation beyond literal translation. [Research](docs/research/community-practices.md) ·
+The four document-type skills build on Diátaxis and community practice. The clarity, error-message and accessibility skills adapt Google technical writing guidance. Chinese adaptation rebuilds information order and relationships rather than translating literally. [Research](docs/research/community-practices.md) ·
 [Chinese adaptation](docs/research/skill-practice-synthesis.md) · [Attribution](NOTICE.md).
 
 [CC BY-SA 4.0](LICENSE).

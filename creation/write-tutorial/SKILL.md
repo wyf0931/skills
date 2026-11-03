@@ -22,7 +22,8 @@ If the reader already has a real task and sufficient skills, explain the mismatc
 - At important transitions, say what should change and what to notice. Use authentic output; label illustrative or variable output.
 - Keep the explanation needed to act and observe. Move longer theory elsewhere without hiding prerequisites or essential warnings.
 - Make common mistakes recoverable. Where useful, explain how to reset or repeat the practice. Place destructive or billable effects before the relevant action.
-- Prefer a small example distilled from a real use case. Identify simplifications that make it unsuitable for production.
+- Prefer a small example distilled from a real use case. Identify simplifications that make it unsuitable for production. Make code examples correct for the stated environment, easy to understand and reuse, and safe to run; identify side effects and prerequisites. Separate snippets from complete runnable examples and comment only where the code is not self-explanatory.
+- For a long tutorial, use task-oriented sections and navigation that help learners resume their place. Introduce prerequisite concepts before relying on them, and defer optional depth without hiding what the learner needs for the promised outcome.
 
 ## Write and verify
 
